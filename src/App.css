@@ -1,0 +1,60 @@
+/** @format */
+
+#root {
+	/* max-width: 1280px; */
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.loginForm {
+	border: 2px solid cyan;
+	height: 337px;
+	width: 352px;
+	padding: 2rem;
+	color: cyan;
+}
+.SingleUser {
+	height: 100px;
+	width: 50%;
+	background-color: blue;
+}
+.AllProducts {
+	display: flex;
+	padding: 7rem;
+	flex-wrap: wrap;
+	gap: 105px;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+	margin: 0.5rem;
+}
+.card {
+	height: 20rem;
+	align-items: center;
+}
+.card-img-top {
+	height: 146px;
+	width: 159px;
+}
+.navbar-expand-lg .navbar-collapse {
+	display: -ms-flexbox !important;
+	display: flex;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+	align-content: flex-end;
+	justify-content: space-evenly;
+}
+.me-2 {
+	width: 428px;
+	margin-right: 51px;
+}
+.nav {
+	position: fixed;
+	width: 95%;
+	z-index: 999;
+	background-color: rgb(218, 225, 232);
+}
